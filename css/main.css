@@ -7,12 +7,58 @@
     margin-top: -13px;
 }
 
+.container{
+  margin-top: 30px;
+}
+/*===============================*/
+/*header*/
+header{
+background-image: url(http://images7.alphacoders.com/335/335115.jpg);
+position: relative;
+width: 100%;
+background-position: top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 550px;
+margin-top: -20px;
+}
+/*header*/
+/*==================================*/
+
+/*image */
+
+.img-circle{
+  width: 170px;
+  height: 170px;
+}
+
+/*image */
+
+/*=======================colonnes inferieurs============================*/
+
+.col4{
+margin-top: 35px;
+}
+.col5{
+  margin-top: 35px;
+}
+.col6{
+  margin-top: 35px;
+}
+
+
+/*=======================colonnes inferieurs============================*/
 
 
 /* ========================================================================== */
 /* Boutons Skillcode */
 /* ========================================================================== */
-
+#mode{
+  width: 355px;
+  margin-top: 263px;
+}
 button, .button {
 
     border-style: solid;
@@ -97,3 +143,19 @@ button, .button {
     box-sizing: border-box;
 
 }*/
+
+
+/*=======================================
+
+  titres navbar
+
+  ======================================*/
+
+
+  .headernavbar {
+    font-size: 15px;
+    color:#AD274E ;
+  }
+
+
+/*==========================*/
