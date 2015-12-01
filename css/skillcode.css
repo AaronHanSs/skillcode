@@ -1,0 +1,45 @@
+.button {
+  margin: 15px 7px;
+  border-radius: 8px
+}
+a.skillcode {
+  background: #222 url(../img/skillcode-logo.svg) 9px center no-repeat;
+  padding: 13px 20px 13px 50px;
+  background-size: 30px;
+  color: #ffffff;
+  transition: all 100ms linear;
+  -webkit-transition: all 100ms linear
+}
+a.skillcode:hover {
+  background: #222 url(../img/skillcode-logo.svg) 9px center no-repeat;
+  background-size: 35px;
+  padding: 13px 20px 13px 54px
+}
+a.skillcode:after {
+  content: '';
+  width: 50px;
+  height: 100%;
+  background: #0a7dbf url(../img/right-arrow.svg) center center no-repeat;
+  background-size: 25px;
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: 0;
+  border-radius: 8px;
+  z-index: -1;
+  transition: transform 200ms ease-out;
+  -webkit-transition: transform 200ms ease-out
+}
+a.skillcode:hover::after {
+  content: '';
+  width: 50px;
+  height: 100%;
+  background: #0a7dbf url(../img/right-arrow.svg) center center no-repeat;
+  background-size: 25px;
+  display: block;
+  position: absolute;
+  transform: translateX(43px);
+  top: 0;
+  border-radius: 8px;
+  z-index: -1
+}
