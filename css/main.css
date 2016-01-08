@@ -7,13 +7,13 @@
     margin-top: -13px;
 }
 
-.container{
-  margin-top: 30px;
+.container-acceuil{
+  margin-top: 40px;
 }
 /*===============================*/
 /*header*/
 header{
-background-image: url(http://images7.alphacoders.com/335/335115.jpg);
+
 position: relative;
 width: 100%;
 background-position: top;
@@ -23,6 +23,11 @@ background-size: cover;
 -o-background-size: cover;
 height: 550px;
 margin-top: -20px;
+}
+
+.Nonchalance-p{
+  position: absolute;
+  font-family: 'Nonchalance'
 }
 /*header*/
 /*==================================*/
@@ -55,9 +60,31 @@ margin-top: 35px;
 /* ========================================================================== */
 /* Boutons Skillcode */
 /* ========================================================================== */
+
+.fillWidth{
+  width: 1304px;
+  height: 735px;
+  overflow: hidden;
+  margin-top: -157px;
+  position: absolute;
+}
+.homepage-hero-module{
+left: -268px;
+}
+
+.video-container{
+  height: 550px;
+  width: 1300px;
+
+}
+/*}==================================== video ============================================*/
+
+
 #mode{
   width: 355px;
-  margin-top: 263px;
+  margin-top: 280px;
+left: 35%;
+
 }
 button, .button {
 
