@@ -229,9 +229,12 @@ width: 256px;
  }
 
  .presentation p{
-
+margin-left: 15px;
  }
-
+/*.presentation .panel-group{
+  width : 500px;
+  margin-left: 20px;
+}*/
 .presentation .panel-group .panel {
   margin-bottom: 0;
   border-radius: 0px;
