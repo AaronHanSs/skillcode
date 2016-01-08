@@ -47,6 +47,14 @@ background-size: cover;
 height: 550px;
 margin-top: -20px;
 }
+.header2{
+background-image: url(http://static.franceculture.fr/sites/default/files/imagecache/ressource_full/2015/02/04/4995981/code.ronstik.jpg);
+position: relative;
+width: 100%;
+background-position: top;
+height: 300px;
+margin-top: -20px;
+}
 /*header*/
 /*==================================*/
 
