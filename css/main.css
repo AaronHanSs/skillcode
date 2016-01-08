@@ -204,9 +204,16 @@ fieldset legend {
    ======================================*/
 
 
+  
+
+.navbar-right {
+  margin-top: 0.2em;
+}
+
    .headernavbar {
      font-size: 15px;
      color:#AD274E;
    }
+
 
 /*==========================*/
