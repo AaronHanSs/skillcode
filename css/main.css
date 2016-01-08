@@ -210,3 +210,31 @@ fieldset legend {
    }
 
 /*==========================*/
+
+/*=====================presentation==================*/
+.presentation{
+padding-top: 55px;
+}
+.presentation img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 256px;
+width: 256px;
+}
+
+ .presentation h1{
+  text-align: center;
+   color : red;
+ }
+
+ .presentation p{
+
+ }
+
+.presentation .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+
+/*====================================================*/
