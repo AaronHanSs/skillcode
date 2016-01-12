@@ -1,4 +1,11 @@
 /* ========================================================================== */
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /* Logo Navbar */
 /* ========================================================================== */
 
@@ -27,7 +34,8 @@ margin-top: -20px;
 
 .Nonchalance-p{
   position: absolute;
-  font-family: 'Nonchalance'
+
+
 }
 /*header*/
 /*==================================*/
@@ -84,6 +92,7 @@ left: -268px;
   width: 355px;
   margin-top: 280px;
 left: 35%;
+padding-right: 50px;
 
 }
 button, .button {
