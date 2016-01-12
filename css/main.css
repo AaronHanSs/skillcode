@@ -32,6 +32,10 @@ html,body{
 /* Logo Navbar */
 /* ========================================================================== */
 
+#inscriptionbutton {
+  background-color: #AD274E;
+}
+
 .navbar-brand img {
     width:140px;
     margin-top: -13px;
@@ -60,7 +64,15 @@ margin-top: -20px;
 
 
 }
-/*header*/
+
+.header2{
+background-image:url("http://static.franceculture.fr/sites/default/files/imagecache/ressource_full/2015/02/04/4995981/code.ronstik.jpg");
+position: relative;
+width: 100%;
+background-position: top;
+height: 300px;
+margin-top: -20px;
+}
 /*==================================*/
 
 /*image */
@@ -240,7 +252,7 @@ fieldset legend {
    ======================================*/
 
 
-  
+
 
 .navbar-right {
   margin-top: 0.2em;
@@ -253,6 +265,43 @@ fieldset legend {
 
 
 /*==========================*/
+
+
+
+
+
+/*=====================presentation==================*/
+.presentation{
+padding-top: 55px;
+}
+.presentation img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 256px;
+width: 256px;
+}
+
+ .presentation h1{
+  text-align: center;
+   color : red;
+ }
+
+ .presentation p{
+margin-left: 15px;
+ }
+/*.presentation .panel-group{
+  width : 500px;
+  margin-left: 20px;
+}*/
+.presentation .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+
+/*====================================================*/
+
+
 
 /* =========================== Quiz Page ==================================== */
 
