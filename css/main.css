@@ -267,6 +267,11 @@ fieldset legend {
   -webkit-border-radius: 50px;
   border-radius: 20px;
 }
+label {
+    background-color: #AD274E;
+}
+
+
 label.btn {
     padding: 18px 60px;
     white-space: normal;
