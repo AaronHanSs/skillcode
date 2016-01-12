@@ -1,3 +1,3 @@
-# skillcode
-
-Next Incoming :D
+# Skillcode
+Plateforme d'apprentissage du code en Français!
+La suite? Bientôt :D
