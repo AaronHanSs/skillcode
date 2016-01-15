@@ -268,11 +268,9 @@ fieldset legend {
 
 
 
-
-
 /*=====================presentation==================*/
 .presentation{
-padding-top: 100px;
+padding-top: 90px;
 }
 .presentation img{
 display: block;
@@ -300,6 +298,7 @@ margin-left: 15px;
 }
 
 /*====================================================*/
+
 
 
 
@@ -674,3 +673,5 @@ label .glyphicon {
 
 
 /* =========================== /Quiz Page =================================== */
+=======
+>>>>>>> b52254df2e8f11d14a8a31685e6032e60eaab876
