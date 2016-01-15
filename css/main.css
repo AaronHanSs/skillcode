@@ -22,21 +22,32 @@
 
 
 /* ========================================================================== */
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /* Logo Navbar */
 /* ========================================================================== */
+
+#inscriptionbutton {
+  background-color: #AD274E;
+}
 
 .navbar-brand img {
     width:140px;
     margin-top: -13px;
 }
 
-.container{
-  margin-top: 30px;
+.container-acceuil{
+  margin-top: 40px;
 }
 /*===============================*/
 /*header*/
 header{
-background-image: url(http://images7.alphacoders.com/335/335115.jpg);
+
 position: relative;
 width: 100%;
 background-position: top;
@@ -47,7 +58,21 @@ background-size: cover;
 height: 550px;
 margin-top: -20px;
 }
-/*header*/
+
+.Nonchalance-p{
+  position: absolute;
+
+
+}
+
+.header2{
+background-image:url("http://static.franceculture.fr/sites/default/files/imagecache/ressource_full/2015/02/04/4995981/code.ronstik.jpg");
+position: relative;
+width: 100%;
+background-position: top;
+height: 300px;
+margin-top: -20px;
+}
 /*==================================*/
 
 /*image */
@@ -61,14 +86,12 @@ margin-top: -20px;
 
 /*=======================colonnes inferieurs============================*/
 
-.col4{
+.col4 , .col5 , .col6{
 margin-top: 35px;
 }
-.col5{
-  margin-top: 35px;
-}
-.col6{
-  margin-top: 35px;
+
+.rowAc{
+  margin: 0;
 }
 
 
@@ -78,9 +101,32 @@ margin-top: 35px;
 /* ========================================================================== */
 /* Boutons Skillcode */
 /* ========================================================================== */
+
+.fillWidth{
+  width: 1304px;
+  height: 735px;
+  overflow: hidden;
+  margin-top: -157px;
+  position: absolute;
+}
+.homepage-hero-module{
+left: -268px;
+}
+
+.video-container{
+  height: 550px;
+  width: 1300px;
+
+}
+/*}==================================== video ============================================*/
+
+
 #mode{
   width: 355px;
-  margin-top: 263px;
+  margin-top: 280px;
+left: 35%;
+padding-right: 50px;
+
 }
 button, .button {
 
@@ -204,12 +250,55 @@ fieldset legend {
    ======================================*/
 
 
+
+
+.navbar-right {
+  margin-top: 0.2em;
+}
+
    .headernavbar {
      font-size: 15px;
      color:#AD274E;
    }
 
+
 /*==========================*/
+
+
+
+/*=====================presentation==================*/
+.presentation{
+padding-top: 90px;
+}
+.presentation img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 256px;
+width: 256px;
+}
+
+ .presentation h1{
+  text-align: center;
+   color : red;
+ }
+
+ .presentation p{
+margin-left: 15px;
+ }
+/*.presentation .panel-group{
+  width : 500px;
+  margin-left: 20px;
+}*/
+.presentation .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+
+/*====================================================*/
+
+
+
 
 /* =========================== Quiz Page ==================================== */
 
@@ -582,3 +671,5 @@ label .glyphicon {
 
 
 /* =========================== /Quiz Page =================================== */
+=======
+>>>>>>> b52254df2e8f11d14a8a31685e6032e60eaab876

@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
     <style>
 
         * {
@@ -53,8 +59,49 @@
     </style>
 </head>
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+
+          <nav class="navbar navbar-default navbar-fixed-top ">
+               <div class="container-fluid">
+                 <!-- Brand and toggle get grouped for better mobile display -->
+                 <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                   </button>
+                   <a class="navbar-brand" href="#">
+                     <img alt="Skill Code" src="img/skillcode.png">
+                   </a>
+                 </div>
+
+                 <!-- Collect the nav links, forms, and other content for toggling -->
+                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   <ul class="nav navbar-nav">
+                     <li><a class="headernavbar" href="index.html">Accueil</a></li>
+                     <li><a class="headernavbar" href="team.html">Team</a></li>
+                       <li><a class="headernavbar" href="#">A propos</a></li>
+                         <li><a class="headernavbar" href="contact.html">Contact</a></li>
+                     <li><a class="headernavbar" href="forum">Forum</a></li>
+
+                   </ul>
+
+                   <ul class="nav navbar-nav navbar-right">
+                     <a href="https://www.skillcode.io/forum/register/" type="button" class="btn btn-primary btn-lg active headernavbar" role="button">Inscription</a>
+                     <a href="https://www.skillcode.io/forum/login/" type="button" class="btn btn-default btn-lg active headernavbar" role="button">Connexion</a>
+
+
+                   </ul>
+                 </div><!-- /.navbar-collapse -->
+               </div><!-- /.container-fluid -->
+             </nav>
+
+
+    <h1>404 Page non trouvée</h1>
+    <p>Désolé mais cette page n'existe pas.</p>
+    <p>(Boulet.)</p>
+      <a id="mode" class="button skillcode" style="padding-right: 50px;" href="https://www.skillcode.io">Retour à l'accueil</a>
 </body>
+
 </html>
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
