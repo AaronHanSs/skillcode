@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz</title>
+    <style>
+   div#test{ border:#000 1px solid; padding:10px 40px 40px 40px;}
+    </style>
+    <script>
+    var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
+    var questions = [
+        ["qui est hachemi?", "papa", "sensei", "cuisto", "B"],
+        ["que dit bertrand?", "banzai", "youpi!" ,"la base", "C"],
+        ["les simploniens-rbx sont?", "24", "15", "35", "A"],
+        ["8 / 2?", "10", "2", "4", "C"],
+    ];
+    function _(x){
+        return document.getElementById(x);
+    }
+    function renderQuestion(){
+        test = _("test");
+        _("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
+        question = questions[pos][0];
+        chA = questions[pos][1];
+        chB = questions[pos][2];
+        chC = questions[pos][3];
+        test.innerHTML ="<h3>"+questions+"</h3>";
+        test.innerHTML +="<input type='radio name='choices' value='A'> "+chA+"<br>";
+        test.innerHTML +="<input type='radio name='choices' value='B'> "+chB+"<br>";
+        test.innerHTML +="<input type='radio name='choices' value='C'> "+chC+"<br><br>"
+    }
+    </script>
+</head>
+<body>
+ <h2 id="test-status"></h2>
+ <div id="test"></div>
+
+</body>
+</html>
