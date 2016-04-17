@@ -22,3 +22,19 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+window.onload = function () {
+
+    var readOnlyCodeMirror = CodeMirror.fromTextArea(document.getElementById('codesnippet_readonly'), {
+        mode: "javascript",
+        theme: "default",
+        lineNumbers: true,
+        readOnly: true
+    });
+
+    var editableCodeMirror = CodeMirror.fromTextArea(document.getElementById('codesnippet_editable'), {
+        mode: "javascript",
+        theme: "default",
+        lineNumbers: true
+    });
+
+};

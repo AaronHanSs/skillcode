@@ -255,7 +255,7 @@ fieldset legend {
 }
 .presentation h1 {
   text-align: center;
-  color: red;
+  color: ;
 }
 .presentation p {
   margin-left: 15px;
@@ -768,3 +768,8 @@ label .glyphicon {
 }
 
 /*======================= /footer =========================*/
+
+
+.container-codemirror {
+  padding: 200px;
+}
