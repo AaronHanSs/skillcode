@@ -22,3 +22,35 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+// ===================== Code mirror ============================
+
+window.onload = function () {
+    var readOnlyCodeMirror = CodeMirror.fromTextArea(document.getElementById('codesnippet_readonly'), {
+        mode: "javascript",
+        // Liste des modes dispo dans la doc
+        theme: "default",
+        // Liste themes dispo dans la doc aussi
+        lineNumbers: true,
+        // Numéro des lignes apparent
+        readOnly: true
+        // Pas d'edit possible
+
+    });
+
+    var editableCodeMirror = CodeMirror.fromTextArea(document.getElementById('codesnippet_editable'), {
+        mode: "javascript",
+        theme: "default",
+        lineNumbers: true
+    });
+
+};
+
+function (go) {
+  var previewresult = document.getElementById('codesnippet_readonly');
+  var result = document.getElementById('codesnippet_editable').getValue();
+  var func = new Function(result);
+  func();
+  document.getElementById("codesnippet_readonly").innerHTML = ;
+
+}
