@@ -41,4 +41,10 @@ $('input[data-toggle="popover"]').popover({
     trigger: 'focus'
 });
 
+$('.showpassword').hover(function () {
+   $('#password').attr('type', 'text');
+}, function () {
+   $('#password').attr('type', 'password');
+});
+
 })
