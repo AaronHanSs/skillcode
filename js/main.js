@@ -28,10 +28,12 @@ $(function(){
         if (ck != $ans)
             return 'INCORRECT';
         else
+
+            $(".progress-quiz").css({
+ "width": "20%"
+});
             return 'CORRECT';
     };
 });
 // ======================== /Quiz Panel animation  ============================
  // Codemirror
-
- 
