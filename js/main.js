@@ -38,6 +38,9 @@ $(function() {
 });
 // ======================== /Quiz Panel animation  ============================
 
+
+// Ce qui suit : Test en vue de changer les questions lorsque la réponse est correcte 
+
 var questionstestquiz = ['Two is correct', 'Three is correct', 'One is correct', 'Three is correct'];
 var reponsestestquiz = ['2', '3', '1', '3']
 for (var i = 0; i < questionstestquiz.length; i += 1);
